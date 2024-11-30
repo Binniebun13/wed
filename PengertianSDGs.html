@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>WEB KOLABORASI</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <!-- Header berbentuk image -->
+        <div class="header">
+            <img src="Header.png" alt="">
+        </div>
+        <div>
+            <!-- Navigator Bar dan Dropdown -->
+        </div>
+        <div>
+            <ul>
+                <li><a href="index.html"><img src="Home.png" alt=""></a></li>
+                
+                <li>
+                    <a href="#"><img src="SDGs.png" alt=""></a>
+                    <ul class="dropdown">
+                        <li><a href="PengertianSDGs.html"><img src="Pengertian.png"></a></li>
+                        <li><a href="ManfaatSDGs.html"><img src="manfaat.png"></a></li>
+                    </ul>
+                <li>
+                    <a href="#"><img src="Kerjasama.png" alt=""></a>
+                    <ul class="dropdown">
+                        <li><a href="Bilateral.html"><img src="Bilateral.png"></a></li>
+                        <li><a href="Regional.html"><img src="Regional.png"></a></li>
+                        <li><a href="Multilateral.html"><img src="Multilateral.png"></a></li>
+                        <li><a href="International.html"><img src="International.png"></a></li>
+                    </ul>
+                </li>
+                <li><a href="X.html"><img src="X.png" alt=""></a></li>
+                <div class="slide-in-text">
+                    <!-- Isi Konten -->
+                            <h2>Pengertian SDGs:</h2>
+                            <h2>SDGs merupakan komitmen global untuk menciptakan dunia yang lebih baik dan berkelanjutan. Melalui kerja sama internasional dan upaya kolektif, tujuan-tujuan ini diharapkan dapat tercapai demi kesejahteraan generasi sekarang dan yang akan datang.</h2>
+            
+                        <script>
+                            window.addEventListener('scroll', () => {
+                              const textElement = document.querySelector('.slide-in-text');
+                              const scrollPosition = window.scrollY;
+                              const elementPosition = textElement.offsetTop;
+                        
+                              if (scrollPosition >= elementPosition) {
+                                textElement.classList.add('active');
+                              }
+                            });
+                          </script>
+            
+                            <center><img src="SDGs 1.png" height="300" width="500"></center>
+                            <h2>Tujuan SDGs:</h2>
+                            <h2>TPB/SDGs adalah serangkaian tujuan yang ditetapkan oleh Perserikatan Bangsa-Bangsa (PBB) untuk mencapai kehidupan yang lebih baik dan lebih berkelanjutan bagi semua orang di planet ini. Ada 17 tujuan SDGs yang saling terkait dan saling mendukung untuk mengatasi berbagai tantangan global yang kita hadapi.</h2>
+                            <center><img src="sdgs 2.png" height="300" width="500"></center>
+                        </p>
+                    </div>
+                     <!-- Footer -->
+                      <div class="footer">
+                        <img src="Footer.png" alt="">
+                      </div>
+                </body>
+            </html>

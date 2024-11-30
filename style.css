@@ -1,0 +1,108 @@
+.header{
+    width: 1280px;
+    position: relative;
+}
+
+/* kode css navigator */
+ul{
+    list-style: none;
+    background: lightblue;
+    padding: 0px 0px;
+    margin: 0px 0px;
+    position: relative;
+    width: 1280px;
+    height: 60px;
+}
+
+ul li{
+    display: inline-block;
+    position: relative;
+    height: 60px;
+    padding: 10px 8px;
+}
+
+ul li a{
+    padding: 10px 0px;
+    text-align: center;
+}
+
+ul a:hover{
+    background-color: lightsteelblue;
+}
+
+/* kode css dropdown */
+
+ul li ul.dropdown{
+    background: lightsteelblue;
+    position: absolute;
+    display: none;
+    width: auto;
+    height: auto;
+    margin: 0px 0px;
+    appearance: inherit;
+}
+
+ul li:hover ul.dropdown{
+    display: block;
+}
+
+/* kode css side bar */
+.column{
+    float: left;
+    padding: 0px 10px;
+}
+
+h2{
+    color: rgb(94, 116, 145);
+    font-family:Jua ;
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+  
+  .slide-in-text {
+    opacity: 0;
+    
+    transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+  }
+  
+  .slide-in-text.active {
+    opacity: 1;
+    
+  }
+
+  table,tr,td,th{
+    border:2px solid rgb(94, 116, 145);
+}
+
+table{
+    width: 95%;
+    color: rgb(94, 116, 145); 
+    border-collapse: collapse;
+}
+
+th{
+    height: 70px;
+    vertical-align: middle;
+    font-family:Jua ;
+}
+
+tr:nth-child(even){
+    background-color: lightblue;
+}
+
+tr:nth-child(odd){
+    background-color: lightcyan;
+}
+td{
+    text-align: center;
+    vertical-align: middle;
+    padding: 10px;
+    font-family:Jua ;
+}
+
+@font-face {
+    font-family:Jua ;
+    src: url(Jua-Regular.ttf);
+}
